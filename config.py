@@ -18,7 +18,7 @@ class ServerAPI():
                        title='API',
                        default_label='Generic_API',
                        default='Methods',
-                       version='0.1.0'
+                       version='1.0.0'
                        )
         self.app.register_blueprint(self.blueprint)
 
